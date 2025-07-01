@@ -1,0 +1,1505 @@
+2025-06-22 12:34:26,571 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:34:26,571 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:34:26,571 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:34:26 ---
+2025-06-22 12:34:29,287 - INFO - 
+--- Detalhes da Oferta Sendo Processada (1 de 5 na página 1) ---
+2025-06-22 12:34:29,288 - INFO -   Título: '20221014 -  KOL - 2022 - Health'
+2025-06-22 12:34:29,288 - INFO -   Link Afiliado: 'https://s.shopee.com.br/gEWZ7gkNu'
+2025-06-22 12:34:29,288 - INFO -   URL da Imagem: 'https://cf.shopee.com.br/file/br-50009109-e36aea6b03c72d17710e5c1880067be0'
+2025-06-22 12:34:29,288 - INFO -   Preço Original (Placeholder): R$ 39,90
+2025-06-22 12:34:29,288 - INFO -   Preço Promocional (Placeholder): R$ 29,90
+2025-06-22 12:34:29,288 - INFO -   ID Único da Oferta: 'https://s.shopee.com.br/gEWZ7gkNu'
+2025-06-22 12:34:29,288 - INFO -   Já postada anteriormente: Não
+2025-06-22 12:34:29,288 - INFO - ----------------------------------------------------
+
+2025-06-22 12:34:29,550 - INFO - Imagem baixada para: temp_images/shopee_offer_1de31bc7ac566cc41cb291392038cee7.jpg
+2025-06-22 12:34:30,559 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\'
+2025-06-22 12:34:30,560 - WARNING - Falha ao enviar foto para '20221014 -  KOL - 2022 - Health'. Tentando enviar apenas texto.
+2025-06-22 12:34:31,362 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\'
+2025-06-22 12:34:31,362 - ERROR - Falha total ao enviar oferta para '20221014 -  KOL - 2022 - Health' (foto e texto).
+2025-06-22 12:34:31,362 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_offer_1de31bc7ac566cc41cb291392038cee7.jpg
+2025-06-22 12:38:04,100 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:38:04,100 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:38:04,100 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:38:04 ---
+2025-06-22 12:38:06,318 - ERROR - Erro na resposta GraphQL da Shopee: [{'message': 'error [11001]: Params Error : Exceeded the maximum number of page limit, the maximum limit is 50', 'path': ['shopeeOfferV2'], 'extensions': {'code': 11001, 'message': 'Params Error : Exceeded the maximum number of page limit, the maximum limit is 50'}}]
+2025-06-22 12:38:06,318 - INFO - Nenhuma oferta encontrada na página atual ou erro na busca das 100 melhores.
+2025-06-22 12:38:06,318 - INFO - Script agendado para buscar as 100 melhores ofertas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:41:22,676 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:41:22,676 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:41:22,676 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:41:22 ---
+2025-06-22 12:42:24,679 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:42:24,679 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:42:24,679 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:42:24 ---
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Health' (OriginalLink: https://shopee.com.br/Health-cat.11059981) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Fashion Accessories' (OriginalLink: https://shopee.com.br/Fashion-Accessories-cat.11059978) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Home Appliances' (OriginalLink: https://shopee.com.br/Home-Appliances-cat.11059984) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Men Clothes' (OriginalLink: https://shopee.com.br/Men-Clothes-cat.11059986) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Men Shoes' (OriginalLink: https://shopee.com.br/Men-Shoes-cat.11059987) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Mobile & Gadgets' (OriginalLink: https://shopee.com.br/Mobile-Gadgets-cat.11059988) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Travel & Luggage' (OriginalLink: https://shopee.com.br/Travel-Luggage-cat.11059995) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Women Bags' (OriginalLink: https://shopee.com.br/Women-Bags-cat.11059997) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Women Clothes' (OriginalLink: https://shopee.com.br/Women-Clothes-cat.11059998) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Oferta '20221014 -  KOL - 2022 - Food Delivery' (OriginalLink: https://shopee.com.br/Food-Delivery-cat.11062201) pulada: Tipo de oferta '2' não está na lista desejada: ['Voucher', 'Free Shipping', 'Discount', 'Cashback'].
+2025-06-22 12:42:27,282 - INFO - Nenhuma oferta nova e qualificada para postar nesta execução na página atual.
+2025-06-22 12:42:27,282 - INFO - Avançando para a página 2 na próxima execução.
+2025-06-22 12:42:27,282 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:44:48,396 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:44:48,396 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:44:48,396 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:44:48 ---
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Health' (OriginalLink: https://shopee.com.br/Health-cat.11059981) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Fashion Accessories' (OriginalLink: https://shopee.com.br/Fashion-Accessories-cat.11059978) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Home Appliances' (OriginalLink: https://shopee.com.br/Home-Appliances-cat.11059984) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Men Clothes' (OriginalLink: https://shopee.com.br/Men-Clothes-cat.11059986) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Men Shoes' (OriginalLink: https://shopee.com.br/Men-Shoes-cat.11059987) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Mobile & Gadgets' (OriginalLink: https://shopee.com.br/Mobile-Gadgets-cat.11059988) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Travel & Luggage' (OriginalLink: https://shopee.com.br/Travel-Luggage-cat.11059995) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Women Bags' (OriginalLink: https://shopee.com.br/Women-Bags-cat.11059997) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Women Clothes' (OriginalLink: https://shopee.com.br/Women-Clothes-cat.11059998) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Oferta '20221014 -  KOL - 2022 - Food Delivery' (OriginalLink: https://shopee.com.br/Food-Delivery-cat.11062201) pulada: Detectado como link de CATEGORIA. offerType: '2'
+2025-06-22 12:44:51,055 - INFO - Nenhuma oferta nova e qualificada para postar nesta execução na página atual.
+2025-06-22 12:44:51,055 - INFO - Avançando para a página 2 na próxima execução.
+2025-06-22 12:44:51,055 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:49:55,707 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:49:55,707 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:49:55,707 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:49:55 ---
+2025-06-22 12:49:59,607 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/1037961959/22798363103'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/br-11134207-7r98o-mb2x9dtvkwwfa7'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 169.9, priceMax: 169.9
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.9
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 0
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 22798363103, 'commissionRate': '0.83', 'commission': '141.017', 'priceMax': '169.9', 'priceMin': '169.9', 'imageUrl': 'https://cf.shopee.com.br/file/br-11134207-7r98o-mb2x9dtvkwwfa7', 'productName': 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025', 'productLink': 'https://shopee.com.br/product/1037961959/22798363103', 'offerLink': 'https://s.shopee.com.br/6fVjjDNyTA', 'priceDiscountRate': 0, 'ratingStar': '4.9'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (ProductLink: https://shopee.com.br/product/1037961959/22798363103) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/286277644/19997921354'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/br-11134207-7r98o-m15x2latq2ybf8'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 14.95, priceMax: 14.95
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.7
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 50
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 19997921354, 'commissionRate': '0.83', 'commission': '12.4085', 'priceMax': '14.95', 'priceMin': '14.95', 'imageUrl': 'https://cf.shopee.com.br/file/br-11134207-7r98o-m15x2latq2ybf8', 'productName': 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios', 'productLink': 'https://shopee.com.br/product/286277644/19997921354', 'offerLink': 'https://s.shopee.com.br/6pp9vWNL8D', 'priceDiscountRate': 50, 'ratingStar': '4.7'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' (ProductLink: https://shopee.com.br/product/286277644/19997921354) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/286277644/20752855289'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/sg-11134201-22100-0yejoch3geiv58'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 14.9, priceMax: 14.9
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.6
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 0
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 20752855289, 'commissionRate': '0.83', 'commission': '12.367', 'priceMax': '14.9', 'priceMin': '14.9', 'imageUrl': 'https://cf.shopee.com.br/file/sg-11134201-22100-0yejoch3geiv58', 'productName': 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras', 'productLink': 'https://shopee.com.br/product/286277644/20752855289', 'offerLink': 'https://s.shopee.com.br/708a7pMhnG', 'priceDiscountRate': 0, 'ratingStar': '4.6'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' (ProductLink: https://shopee.com.br/product/286277644/20752855289) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/312370162/16531198819'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/bf87b354ebe55402c556ede06f45cee9'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 19.95, priceMax: 19.95
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.6
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 0
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 16531198819, 'commissionRate': '0.83', 'commission': '16.5585', 'priceMax': '19.95', 'priceMin': '19.95', 'imageUrl': 'https://cf.shopee.com.br/file/bf87b354ebe55402c556ede06f45cee9', 'productName': 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex', 'productLink': 'https://shopee.com.br/product/312370162/16531198819', 'offerLink': 'https://s.shopee.com.br/7AS0K8M4SJ', 'priceDiscountRate': 0, 'ratingStar': '4.6'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex' (ProductLink: https://shopee.com.br/product/312370162/16531198819) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/312370162/3284899501'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/bfae06ebbee0235f82da4c2584804cae'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 18, priceMax: 18
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.8
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 10
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 3284899501, 'commissionRate': '0.83', 'commission': '14.94', 'priceMax': '18', 'priceMin': '18', 'imageUrl': 'https://cf.shopee.com.br/file/bfae06ebbee0235f82da4c2584804cae', 'productName': 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados', 'productLink': 'https://shopee.com.br/product/312370162/3284899501', 'offerLink': 'https://s.shopee.com.br/7KlQWRLR7M', 'priceDiscountRate': 10, 'ratingStar': '4.8'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados' (ProductLink: https://shopee.com.br/product/312370162/3284899501) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/312370162/23193635683'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/br-11134207-7r98o-m4z0pth73qz400'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,608 - INFO -   priceMin: 21.54, priceMax: 21.54
+2025-06-22 12:49:59,608 - INFO -   ratingStar: 4.8
+2025-06-22 12:49:59,608 - INFO -   priceDiscountRate: 40
+2025-06-22 12:49:59,608 - INFO -   Dados brutos da oferta: {'itemId': 23193635683, 'commissionRate': '0.83', 'commission': '17.8782', 'priceMax': '21.54', 'priceMin': '21.54', 'imageUrl': 'https://cf.shopee.com.br/file/br-11134207-7r98o-m4z0pth73qz400', 'productName': 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados', 'productLink': 'https://shopee.com.br/product/312370162/23193635683', 'offerLink': 'https://s.shopee.com.br/7V4qikKnmP', 'priceDiscountRate': 40, 'ratingStar': '4.8'}
+2025-06-22 12:49:59,608 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,608 - INFO - Oferta 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados' (ProductLink: https://shopee.com.br/product/312370162/23193635683) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,608 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,608 - INFO -   Nome do Produto: 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega'
+2025-06-22 12:49:59,608 - INFO -   productLink: 'https://shopee.com.br/product/312370162/5984635687'
+2025-06-22 12:49:59,608 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/1962a10ff0be2b1a2ead13dab666217d'
+2025-06-22 12:49:59,608 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,609 - INFO -   priceMin: 19, priceMax: 19
+2025-06-22 12:49:59,609 - INFO -   ratingStar: 4.6
+2025-06-22 12:49:59,609 - INFO -   priceDiscountRate: 0
+2025-06-22 12:49:59,609 - INFO -   Dados brutos da oferta: {'itemId': 5984635687, 'commissionRate': '0.83', 'commission': '15.77', 'priceMax': '19', 'priceMin': '19', 'imageUrl': 'https://cf.shopee.com.br/file/1962a10ff0be2b1a2ead13dab666217d', 'productName': 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega', 'productLink': 'https://shopee.com.br/product/312370162/5984635687', 'offerLink': 'https://s.shopee.com.br/7fOGv3KARS', 'priceDiscountRate': 0, 'ratingStar': '4.6'}
+2025-06-22 12:49:59,609 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,609 - INFO - Oferta 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega' (ProductLink: https://shopee.com.br/product/312370162/5984635687) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,609 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,609 - INFO -   Nome do Produto: 'Touca Ninja Poliester Toca Para Motoqueiro Touca Para Frio'
+2025-06-22 12:49:59,609 - INFO -   productLink: 'https://shopee.com.br/product/312370162/8037312696'
+2025-06-22 12:49:59,609 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/579af5caf1a0fcbe7e05610e842c4d28'
+2025-06-22 12:49:59,609 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,609 - INFO -   priceMin: 23, priceMax: 23
+2025-06-22 12:49:59,609 - INFO -   ratingStar: 4.5
+2025-06-22 12:49:59,609 - INFO -   priceDiscountRate: 0
+2025-06-22 12:49:59,609 - INFO -   Dados brutos da oferta: {'itemId': 8037312696, 'commissionRate': '0.83', 'commission': '19.09', 'priceMax': '23', 'priceMin': '23', 'imageUrl': 'https://cf.shopee.com.br/file/579af5caf1a0fcbe7e05610e842c4d28', 'productName': 'Touca Ninja Poliester Toca Para Motoqueiro Touca Para Frio', 'productLink': 'https://shopee.com.br/product/312370162/8037312696', 'offerLink': 'https://s.shopee.com.br/7phh7MJX6V', 'priceDiscountRate': 0, 'ratingStar': '4.5'}
+2025-06-22 12:49:59,609 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,609 - INFO - Oferta 'Touca Ninja Poliester Toca Para Motoqueiro Touca Para Frio' (ProductLink: https://shopee.com.br/product/312370162/8037312696) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,609 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,609 - INFO -   Nome do Produto: 'descasdor de pinhão em alumínio'
+2025-06-22 12:49:59,609 - INFO -   productLink: 'https://shopee.com.br/product/599074091/20497077941'
+2025-06-22 12:49:59,609 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/br-11134207-7r98o-luiiplpmx5y851'
+2025-06-22 12:49:59,609 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,609 - INFO -   priceMin: 31, priceMax: 31
+2025-06-22 12:49:59,609 - INFO -   ratingStar: 4.8
+2025-06-22 12:49:59,609 - INFO -   priceDiscountRate: 11
+2025-06-22 12:49:59,609 - INFO -   Dados brutos da oferta: {'itemId': 20497077941, 'commissionRate': '0.83', 'commission': '25.73', 'priceMax': '31', 'priceMin': '31', 'imageUrl': 'https://cf.shopee.com.br/file/br-11134207-7r98o-luiiplpmx5y851', 'productName': 'descasdor de pinhão em alumínio', 'productLink': 'https://shopee.com.br/product/599074091/20497077941', 'offerLink': 'https://s.shopee.com.br/2qJ1AAcZFY', 'priceDiscountRate': 11, 'ratingStar': '4.8'}
+2025-06-22 12:49:59,609 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,609 - INFO - Oferta 'descasdor de pinhão em alumínio' (ProductLink: https://shopee.com.br/product/599074091/20497077941) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,609 - INFO - 
+--- OFERTA RECEBIDA DA API (PRODUCTOFFERV2) ---
+2025-06-22 12:49:59,609 - INFO -   Nome do Produto: 'Avental Frente Oxford Master Chef Personalizado Bordado'
+2025-06-22 12:49:59,609 - INFO -   productLink: 'https://shopee.com.br/product/312370162/5154409420'
+2025-06-22 12:49:59,609 - INFO -   imageUrl: 'https://cf.shopee.com.br/file/31983a984207e41e0695aad6e1c370b1'
+2025-06-22 12:49:59,609 - INFO -   commissionRate: 0.83%
+2025-06-22 12:49:59,609 - INFO -   priceMin: 29.34, priceMax: 29.34
+2025-06-22 12:49:59,609 - INFO -   ratingStar: 4.5
+2025-06-22 12:49:59,609 - INFO -   priceDiscountRate: 40
+2025-06-22 12:49:59,609 - INFO -   Dados brutos da oferta: {'itemId': 5154409420, 'commissionRate': '0.83', 'commission': '24.3522', 'priceMax': '29.34', 'priceMin': '29.34', 'imageUrl': 'https://cf.shopee.com.br/file/31983a984207e41e0695aad6e1c370b1', 'productName': 'Avental Frente Oxford Master Chef Personalizado Bordado', 'productLink': 'https://shopee.com.br/product/312370162/5154409420', 'offerLink': 'https://s.shopee.com.br/2fzaxrdCaX', 'priceDiscountRate': 40, 'ratingStar': '4.5'}
+2025-06-22 12:49:59,609 - INFO - ----------------------------------------------------
+
+2025-06-22 12:49:59,609 - INFO - Oferta 'Avental Frente Oxford Master Chef Personalizado Bordado' (ProductLink: https://shopee.com.br/product/312370162/5154409420) pulada: Comissão 0.83% é menor que 6.0%.
+2025-06-22 12:49:59,609 - INFO - Nenhuma oferta nova e qualificada para postar nesta execução na página atual.
+2025-06-22 12:49:59,609 - INFO - Avançando para a página 2 na próxima execução.
+2025-06-22 12:49:59,609 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:53:43,354 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:53:43,354 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:53:43,354 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:53:43 ---
+2025-06-22 12:53:47,234 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 12:53:47,234 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 12:53:47,704 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:53:51,310 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 12:53:51,311 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 12:53:52,075 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 12:53:52,075 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 12:53:52,075 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:53:52,075 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 12:53:52,075 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:57:36,731 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:57:36,731 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:57:36,731 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:57:36 ---
+2025-06-22 12:57:40,522 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 12:57:40,522 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 12:57:40,681 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:57:42,470 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\'
+2025-06-22 12:57:42,471 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 12:57:43,231 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\'
+2025-06-22 12:57:43,232 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 12:57:43,232 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:57:43,232 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 12:57:43,232 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 12:58:53,035 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 12:58:53,035 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 12:58:53,035 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 12:58:53 ---
+2025-06-22 12:58:56,878 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 12:58:56,878 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 12:58:57,377 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:58:59,464 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 12:58:59,465 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 12:59:00,235 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 12:59:00,235 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 12:59:00,235 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 12:59:00,235 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 12:59:00,235 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:01:35,418 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:01:35,418 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 13:01:35,418 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 13:01:35 ---
+2025-06-22 13:01:39,249 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 13:01:39,249 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 13:01:39,419 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:01:43,011 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:01:43,012 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 13:01:43,772 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:01:43,772 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 13:01:43,772 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:01:43,772 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 13:01:43,772 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:03:00,264 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:03:00,264 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 13:03:00,264 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 13:03:00 ---
+2025-06-22 13:03:04,215 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 13:03:04,215 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 13:03:04,793 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:03:06,826 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 13:03:06,827 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 13:03:07,620 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ('Unauthorized', 401, {'ok': False, 'error_code': 401, 'description': 'Unauthorized'}). Detalhes: Unauthorized
+2025-06-22 13:03:07,620 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 13:03:07,620 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:03:07,620 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 13:03:07,620 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:06:17,825 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:06:17,825 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 13:06:17,825 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 13:06:17 ---
+2025-06-22 13:06:21,636 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 13:06:21,636 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 13:06:21,798 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:06:23,592 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:06:23,593 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 13:06:24,370 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:06:24,370 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 13:06:24,370 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:06:24,371 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 13:06:24,371 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:10:00,792 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:10:00,792 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 13:10:00,792 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 13:10:00 ---
+2025-06-22 13:10:04,617 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 13:10:04,617 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 13:10:05,130 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:10:07,233 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:10:07,233 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 13:10:08,024 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:10:08,024 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 13:10:08,024 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:10:08,024 - INFO - Oferta qualificada processada. Reiniciando busca da página 1 na próxima execução para encontrar novas melhores ofertas.
+2025-06-22 13:10:08,024 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:14:27,517 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:14:27,517 - INFO - Ofertas previamente postadas carregadas: 0 itens.
+2025-06-22 13:14:27,517 - INFO - 
+--- Executando fluxo de produto em 2025-06-22 13:14:27 ---
+2025-06-22 13:14:31,413 - INFO - Processando oferta: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão 0.83%
+2025-06-22 13:14:31,413 - INFO - ### OFERTA QUALIFICADA PARA POSTAGEM (COMMISSION >= 0.5%) ###
+2025-06-22 13:14:31,921 - INFO - Imagem baixada para: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:14:33,733 - ERROR - Erro ao enviar foto para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:14:33,734 - WARNING - Falha ao enviar foto para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'. Tentando enviar apenas texto.
+2025-06-22 13:14:34,504 - ERROR - Erro ao enviar mensagem para o Telegram (Telepot): ("Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'", 400, {'ok': False, 'error_code': 400, 'description': "Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\\'"}). Detalhes: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-06-22 13:14:34,504 - ERROR - Falha total ao enviar oferta para 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (foto e texto).
+2025-06-22 13:14:34,505 - INFO - Arquivo de imagem temporário removido: temp_images/shopee_product_0e955af31809f09772ba49c39443945b.jpg
+2025-06-22 13:14:34,505 - INFO - Avançando para a página 2 na próxima execução.
+2025-06-22 13:14:34,505 - INFO - Script agendado para buscar e postar ofertas qualificadas a cada 15 minutos. Pressione Ctrl+C para parar.
+2025-06-22 13:17:53,852 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:26:59,883 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:26:59,884 - INFO - 0 ofertas previamente postadas foram carregadas.
+2025-06-22 13:26:59,884 - INFO - 
+--- Iniciando nova busca por ofertas. Página atual: 1 ---
+2025-06-22 13:27:03,843 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' pulada. Comissão (0.83%) abaixo do mínimo (10.0%).
+2025-06-22 13:27:03,843 - INFO - Agendamento configurado: O bot buscará uma nova oferta a cada 15 minutos.
+2025-06-22 13:27:03,843 - INFO - Pressione Ctrl+C para parar.
+2025-06-22 13:29:56,083 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:29:56,083 - INFO - 0 ofertas previamente postadas foram carregadas.
+2025-06-22 13:29:56,083 - INFO - 
+--- Iniciando nova busca por ofertas. Página atual: 1 ---
+2025-06-22 13:29:59,900 - INFO - OFERTA QUALIFICADA ENCONTRADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' com comissão de 0.83%.
+2025-06-22 13:30:03,050 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO com imagem.
+2025-06-22 13:30:03,051 - INFO - Agendamento configurado: O bot buscará uma nova oferta a cada 15 minutos.
+2025-06-22 13:30:03,051 - INFO - Pressione Ctrl+C para parar.
+2025-06-22 13:30:35,357 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:30:35,357 - INFO - 1 ofertas previamente postadas foram carregadas.
+2025-06-22 13:30:35,357 - INFO - 
+--- Iniciando nova busca por ofertas. Página atual: 1 ---
+2025-06-22 13:30:38,659 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (ID: 22798363103) já foi postada. Pulando.
+2025-06-22 13:30:38,659 - INFO - Agendamento configurado: O bot buscará uma nova oferta a cada 15 minutos.
+2025-06-22 13:30:38,659 - INFO - Pressione Ctrl+C para parar.
+2025-06-22 13:33:00,578 - INFO - Bot de ofertas da Shopee iniciado.
+2025-06-22 13:33:00,578 - INFO - 1 ofertas previamente postadas foram carregadas.
+2025-06-22 13:33:00,578 - INFO - 
+--- Buscando nova oferta na página: 1 ---
+2025-06-22 13:33:04,387 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' (ID: 22798363103) já foi postada. Pulando...
+2025-06-22 13:33:04,387 - INFO - 
+--- Buscando nova oferta na página: 2 ---
+2025-06-22 13:33:07,670 - INFO - OFERTA QUALIFICADA ENCONTRADA: 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' com comissão de 0.83%.
+2025-06-22 13:33:10,096 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' postada com SUCESSO com imagem.
+2025-06-22 13:33:10,097 - INFO - Postagem realizada com sucesso. Aguardando 15 minutos para a próxima busca...
+2025-06-22 15:42:49,281 - INFO - Bot iniciado com busca por categorias aleatórias e novo template.
+2025-06-22 15:42:49,281 - INFO - 2 ofertas carregadas.
+2025-06-22 15:42:49,281 - INFO - 
+--- Buscando oferta na Categoria ID: 100015, Página: 1 ---
+2025-06-22 15:42:51,329 - ERROR - Erro GraphQL: [{'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".', 'locations': [{'line': 3, 'column': 117}], 'extensions': {'code': 10010, 'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".'}}]
+2025-06-22 15:42:51,329 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:43:01,329 - INFO - 
+--- Buscando oferta na Categoria ID: 100015, Página: 1 ---
+2025-06-22 15:43:03,376 - ERROR - Erro GraphQL: [{'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".', 'locations': [{'line': 3, 'column': 117}], 'extensions': {'code': 10010, 'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".'}}]
+2025-06-22 15:43:03,376 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:43:13,377 - INFO - 
+--- Buscando oferta na Categoria ID: 100016, Página: 1 ---
+2025-06-22 15:43:15,437 - ERROR - Erro GraphQL: [{'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".', 'locations': [{'line': 3, 'column': 117}], 'extensions': {'code': 10010, 'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".'}}]
+2025-06-22 15:43:15,437 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:43:25,437 - INFO - 
+--- Buscando oferta na Categoria ID: 100018, Página: 1 ---
+2025-06-22 15:43:27,447 - ERROR - Erro GraphQL: [{'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".', 'locations': [{'line': 3, 'column': 117}], 'extensions': {'code': 10010, 'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".'}}]
+2025-06-22 15:43:27,447 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:43:37,447 - INFO - 
+--- Buscando oferta na Categoria ID: 100104, Página: 1 ---
+2025-06-22 15:43:39,482 - ERROR - Erro GraphQL: [{'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".', 'locations': [{'line': 3, 'column': 117}], 'extensions': {'code': 10010, 'message': 'Unknown argument "categoryIds" on field "productOfferV2" of type "Query".'}}]
+2025-06-22 15:43:39,482 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:43:49,482 - INFO - 
+--- Buscando oferta na Categoria ID: 100010, Página: 1 ---
+2025-06-22 15:51:53,118 - INFO - Bot iniciado com busca por categorias aleatórias e novo template.
+2025-06-22 15:51:53,118 - INFO - 2 ofertas carregadas.
+2025-06-22 15:51:53,119 - INFO - 
+--- Buscando oferta na Categoria ID: 100015, Página: 1 ---
+2025-06-22 15:51:55,154 - ERROR - Erro GraphQL: [{'message': 'error [11001]: Params Error : listType is not validate', 'path': ['productOfferV2'], 'extensions': {'code': 11001, 'message': 'Params Error : listType is not validate'}}]
+2025-06-22 15:51:55,154 - WARNING - Nenhuma oferta encontrada. Resetando página para esta categoria.
+2025-06-22 15:56:39,436 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 15:56:39,436 - INFO - 2 ofertas previamente postadas carregadas.
+2025-06-22 15:56:39,436 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 15:56:43,329 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando para a próxima página.
+2025-06-22 15:56:43,329 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 15:56:46,717 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando para a próxima página.
+2025-06-22 15:56:46,717 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 15:56:49,949 - INFO - OFERTA QUALIFICADA: 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras'
+2025-06-22 15:56:52,305 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' postada com SUCESSO.
+2025-06-22 15:56:52,305 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 15:59:14,700 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 15:59:14,700 - INFO - 3 ofertas previamente postadas carregadas.
+2025-06-22 15:59:14,700 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 15:59:18,758 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando para a próxima página.
+2025-06-22 15:59:18,758 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 15:59:22,033 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando para a próxima página.
+2025-06-22 15:59:22,033 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 15:59:25,333 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' já postada. Pulando para a próxima página.
+2025-06-22 15:59:25,333 - INFO - 
+--- Buscando a melhor oferta geral na página: 4 ---
+2025-06-22 15:59:28,624 - INFO - OFERTA QUALIFICADA: 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex'
+2025-06-22 15:59:31,007 - ERROR - Erro Telegram ao enviar 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex': Bad Request: can't parse entities: Character '>' is reserved and must be escaped with the preceding '\'
+2025-06-22 15:59:31,007 - ERROR - Falha ao enviar. Tentando a próxima oferta em 5s.
+2025-06-22 15:59:36,008 - INFO - 
+--- Buscando a melhor oferta geral na página: 5 ---
+2025-06-22 15:59:39,490 - INFO - OFERTA QUALIFICADA: 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados'
+2025-06-22 15:59:40,763 - ERROR - Erro Telegram ao enviar 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados': Bad Request: can't parse entities: Character '>' is reserved and must be escaped with the preceding '\'
+2025-06-22 15:59:40,764 - ERROR - Falha ao enviar. Tentando a próxima oferta em 5s.
+2025-06-22 16:02:07,591 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:02:07,592 - INFO - 3 ofertas previamente postadas carregadas.
+2025-06-22 16:02:07,592 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:02:11,856 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando para a próxima página.
+2025-06-22 16:02:11,856 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 16:02:15,244 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando para a próxima página.
+2025-06-22 16:02:15,244 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 16:02:18,525 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' já postada. Pulando para a próxima página.
+2025-06-22 16:02:18,525 - INFO - 
+--- Buscando a melhor oferta geral na página: 4 ---
+2025-06-22 16:02:21,871 - INFO - OFERTA QUALIFICADA: 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex'
+2025-06-22 16:02:24,911 - INFO - Oferta 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex' postada com SUCESSO.
+2025-06-22 16:02:24,912 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:10:22,129 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:10:22,129 - INFO - 0 ofertas carregadas.
+2025-06-22 16:10:22,130 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:10:26,135 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:10:28,860 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:10:28,861 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:11:31,066 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:11:31,066 - INFO - 1 ofertas carregadas.
+2025-06-22 16:11:31,066 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:11:34,908 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando.
+2025-06-22 16:11:34,908 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 16:11:38,172 - INFO - OFERTA QUALIFICADA: 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios'
+2025-06-22 16:11:38,596 - INFO - Imagem composta salva em: temp_images/composed_19997921354.png
+2025-06-22 16:11:42,014 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' postada com SUCESSO.
+2025-06-22 16:11:42,014 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:16:08,312 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:16:08,312 - INFO - 0 ofertas carregadas.
+2025-06-22 16:16:08,312 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:16:12,121 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:16:12,915 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:16:15,877 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:16:15,877 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:17:29,927 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:17:29,927 - INFO - 0 ofertas carregadas.
+2025-06-22 16:17:29,927 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:17:33,662 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:17:34,486 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:17:37,363 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:17:37,364 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:18:30,801 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:18:30,801 - INFO - 0 ofertas carregadas.
+2025-06-22 16:18:30,801 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:18:34,627 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:18:35,409 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:18:38,347 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:18:38,348 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:19:27,380 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:19:27,380 - INFO - 0 ofertas carregadas.
+2025-06-22 16:19:27,380 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:19:30,712 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:19:31,448 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:19:34,321 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:19:34,322 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:20:03,602 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:20:03,602 - INFO - 0 ofertas carregadas.
+2025-06-22 16:20:03,602 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:20:07,425 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:20:07,884 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:20:10,845 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:20:10,846 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:20:40,687 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:20:40,687 - INFO - 0 ofertas carregadas.
+2025-06-22 16:20:40,687 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:20:43,986 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:20:44,459 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:20:47,542 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:20:47,543 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:21:19,846 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:21:19,846 - INFO - 0 ofertas carregadas.
+2025-06-22 16:21:19,846 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:21:23,652 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:21:24,152 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:21:27,202 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:21:27,203 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:21:54,488 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:21:54,488 - INFO - 0 ofertas carregadas.
+2025-06-22 16:21:54,488 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:21:57,797 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:21:58,635 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:22:01,756 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:22:01,757 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:22:51,946 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 16:22:51,946 - INFO - 0 ofertas carregadas.
+2025-06-22 16:22:51,946 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 16:22:55,718 - INFO - OFERTA QUALIFICADA: 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025'
+2025-06-22 16:22:56,551 - INFO - Imagem composta salva em: temp_images/composed_22798363103.png
+2025-06-22 16:22:59,626 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' postada com SUCESSO.
+2025-06-22 16:22:59,627 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 16:37:59,627 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 16:38:03,681 - INFO - OFERTA QUALIFICADA: 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios'
+2025-06-22 16:38:04,212 - INFO - Imagem composta salva em: temp_images/composed_19997921354.png
+2025-06-22 16:38:07,667 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' postada com SUCESSO.
+2025-06-22 16:38:07,668 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 17:01:56,021 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 17:01:56,021 - INFO - 2 ofertas carregadas.
+2025-06-22 17:01:56,021 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 17:02:00,067 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando.
+2025-06-22 17:02:00,067 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 17:02:03,631 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando.
+2025-06-22 17:02:03,631 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 17:02:06,908 - INFO - OFERTA QUALIFICADA: 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras'
+2025-06-22 17:02:07,356 - INFO - Imagem composta salva em: temp_images/composed_20752855289.png
+2025-06-22 17:02:10,661 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' postada com SUCESSO.
+2025-06-22 17:02:10,661 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 17:17:10,662 - INFO - 
+--- Buscando a melhor oferta geral na página: 4 ---
+2025-06-22 17:17:14,583 - INFO - OFERTA QUALIFICADA: 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex'
+2025-06-22 17:17:15,313 - INFO - Imagem composta salva em: temp_images/composed_16531198819.png
+2025-06-22 17:17:18,799 - INFO - Oferta 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex' postada com SUCESSO.
+2025-06-22 17:17:18,799 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 18:12:12,582 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 18:12:12,582 - INFO - 4 ofertas carregadas.
+2025-06-22 18:12:12,582 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 18:12:16,497 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando.
+2025-06-22 18:12:16,497 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 18:12:19,867 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando.
+2025-06-22 18:12:19,867 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 18:12:23,210 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' já postada. Pulando.
+2025-06-22 18:12:23,210 - INFO - 
+--- Buscando a melhor oferta geral na página: 4 ---
+2025-06-22 18:12:26,489 - INFO - Oferta 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex' já postada. Pulando.
+2025-06-22 18:12:26,489 - INFO - 
+--- Buscando a melhor oferta geral na página: 5 ---
+2025-06-22 18:12:29,839 - INFO - OFERTA QUALIFICADA: 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados'
+2025-06-22 18:12:30,317 - INFO - Imagem composta salva em: temp_images/composed_3284899501.png
+2025-06-22 18:12:33,611 - INFO - Oferta 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados' postada com SUCESSO.
+2025-06-22 18:12:33,612 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 18:27:33,612 - INFO - 
+--- Buscando a melhor oferta geral na página: 6 ---
+2025-06-22 18:27:37,602 - INFO - OFERTA QUALIFICADA: 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados'
+2025-06-22 18:27:38,200 - INFO - Imagem composta salva em: temp_images/composed_23193635683.png
+2025-06-22 18:27:41,617 - INFO - Oferta 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados' postada com SUCESSO.
+2025-06-22 18:27:41,618 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 18:42:41,618 - INFO - 
+--- Buscando a melhor oferta geral na página: 7 ---
+2025-06-22 18:42:45,505 - INFO - OFERTA QUALIFICADA: 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega'
+2025-06-22 18:42:45,943 - INFO - Imagem composta salva em: temp_images/composed_5984635687.png
+2025-06-22 18:42:49,352 - INFO - Oferta 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega' postada com SUCESSO.
+2025-06-22 18:42:49,352 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 18:42:57,081 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-22 18:42:57,081 - INFO - 7 ofertas carregadas.
+2025-06-22 18:42:57,081 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-22 18:43:00,371 - INFO - Oferta 'Conjunto Inverno De Frio Pantalona Com Gola Mousse Tricot e Trico Lançamento 2025' já postada. Pulando.
+2025-06-22 18:43:00,371 - INFO - 
+--- Buscando a melhor oferta geral na página: 2 ---
+2025-06-22 18:43:03,742 - INFO - Oferta 'Blusa Tomara que Caia CROPPED TOP FAIXA BLUSINHA  TOMARA QUE CAIA Tampa Seios' já postada. Pulando.
+2025-06-22 18:43:03,742 - INFO - 
+--- Buscando a melhor oferta geral na página: 3 ---
+2025-06-22 18:43:07,062 - INFO - Oferta 'Sacola Bolsa Eco bag Oxford Sublimação Compras Eventos Festas Comemorativas Ecológica Mercado Compras' já postada. Pulando.
+2025-06-22 18:43:07,062 - INFO - 
+--- Buscando a melhor oferta geral na página: 4 ---
+2025-06-22 18:43:10,400 - INFO - Oferta 'Touca de cetim Antifrizz ,Touca de dormir, chapéu, cuidados com o cabelo, mulheres homens Unissex' já postada. Pulando.
+2025-06-22 18:43:10,400 - INFO - 
+--- Buscando a melhor oferta geral na página: 5 ---
+2025-06-22 18:43:13,696 - INFO - Oferta 'Touca De Cetim Anti Frizz Cabelos Crespos E Cacheados' já postada. Pulando.
+2025-06-22 18:43:13,696 - INFO - 
+--- Buscando a melhor oferta geral na página: 6 ---
+2025-06-22 18:43:16,991 - INFO - Oferta 'Kit 2 Touca de cetim 1 Rosa pink e 1 Azul Royal com faixa antifrizz cabelos lisos e cacheados' já postada. Pulando.
+2025-06-22 18:43:16,991 - INFO - 
+--- Buscando a melhor oferta geral na página: 7 ---
+2025-06-22 18:43:20,348 - INFO - Oferta 'Balaclava  Lisa Motoqueiros Touca Bike Pescaria Moto  Ciclismo Marinho Pronta Entrega' já postada. Pulando.
+2025-06-22 18:43:20,348 - INFO - 
+--- Buscando a melhor oferta geral na página: 8 ---
+2025-06-22 18:43:23,614 - INFO - OFERTA QUALIFICADA: 'Touca Ninja Poliester Toca Para Motoqueiro Touca Para Frio'
+2025-06-22 18:43:24,077 - INFO - Imagem composta salva em: temp_images/composed_8037312696.png
+2025-06-22 18:43:27,054 - INFO - Oferta 'Touca Ninja Poliester Toca Para Motoqueiro Touca Para Frio' postada com SUCESSO.
+2025-06-22 18:43:27,054 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 18:58:27,054 - INFO - 
+--- Buscando a melhor oferta geral na página: 9 ---
+2025-06-22 18:58:30,977 - INFO - OFERTA QUALIFICADA: 'descasdor de pinhão em alumínio'
+2025-06-22 18:58:31,983 - INFO - Imagem composta salva em: temp_images/composed_20497077941.png
+2025-06-22 18:58:35,427 - INFO - Oferta 'descasdor de pinhão em alumínio' postada com SUCESSO.
+2025-06-22 18:58:35,428 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 19:13:35,428 - INFO - 
+--- Buscando a melhor oferta geral na página: 10 ---
+2025-06-22 19:13:39,339 - INFO - OFERTA QUALIFICADA: 'Lenço Cetim 90x90cm Seda de Cabelo Moda Bandana Pescoço'
+2025-06-22 19:13:39,903 - INFO - Imagem composta salva em: temp_images/composed_20799594730.png
+2025-06-22 19:13:43,352 - INFO - Oferta 'Lenço Cetim 90x90cm Seda de Cabelo Moda Bandana Pescoço' postada com SUCESSO.
+2025-06-22 19:13:43,352 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 19:28:43,352 - INFO - 
+--- Buscando a melhor oferta geral na página: 11 ---
+2025-06-22 19:28:47,250 - INFO - OFERTA QUALIFICADA: 'Avental Frente Oxford Master Chef Personalizado Bordado'
+2025-06-22 19:28:47,765 - INFO - Imagem composta salva em: temp_images/composed_5154409420.png
+2025-06-22 19:28:51,510 - INFO - Oferta 'Avental Frente Oxford Master Chef Personalizado Bordado' postada com SUCESSO.
+2025-06-22 19:28:51,511 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 19:43:51,511 - INFO - 
+--- Buscando a melhor oferta geral na página: 12 ---
+2025-06-22 19:43:55,381 - INFO - OFERTA QUALIFICADA: 'AVENTAL PERSONALIZADO AVENTAL BORDADO AVENTAL MASTERCHEF'
+2025-06-22 19:43:56,658 - INFO - Imagem composta salva em: temp_images/composed_19462359957.png
+2025-06-22 19:44:00,132 - INFO - Oferta 'AVENTAL PERSONALIZADO AVENTAL BORDADO AVENTAL MASTERCHEF' postada com SUCESSO.
+2025-06-22 19:44:00,134 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 19:59:00,134 - INFO - 
+--- Buscando a melhor oferta geral na página: 13 ---
+2025-06-22 19:59:04,174 - INFO - OFERTA QUALIFICADA: '10 Aventais De Cozinheiro Restaurante Lanchonete tecido oxford c/ 1 bolso  restaurante'
+2025-06-22 19:59:07,255 - INFO - Imagem composta salva em: temp_images/composed_23897884097.png
+2025-06-22 19:59:10,604 - INFO - Oferta '10 Aventais De Cozinheiro Restaurante Lanchonete tecido oxford c/ 1 bolso  restaurante' postada com SUCESSO.
+2025-06-22 19:59:10,605 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 20:14:10,606 - INFO - 
+--- Buscando a melhor oferta geral na página: 14 ---
+2025-06-22 20:14:14,673 - INFO - OFERTA QUALIFICADA: 'Antena Magnética Universal Indoor Hdtv Digital Dual Dta-180 Para Antena De Tv'
+2025-06-22 20:14:15,755 - INFO - Imagem composta salva em: temp_images/composed_22897582064.png
+2025-06-22 20:14:19,266 - INFO - Oferta 'Antena Magnética Universal Indoor Hdtv Digital Dual Dta-180 Para Antena De Tv' postada com SUCESSO.
+2025-06-22 20:14:19,266 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 20:29:19,267 - INFO - 
+--- Buscando a melhor oferta geral na página: 15 ---
+2025-06-22 20:29:23,145 - INFO - OFERTA QUALIFICADA: 'Stencil Raios para Pinturas Molde Raio para aerografias'
+2025-06-22 20:29:23,748 - INFO - Imagem composta salva em: temp_images/composed_19020838836.png
+2025-06-22 20:29:27,143 - INFO - Oferta 'Stencil Raios para Pinturas Molde Raio para aerografias' postada com SUCESSO.
+2025-06-22 20:29:27,143 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 20:44:27,143 - INFO - 
+--- Buscando a melhor oferta geral na página: 16 ---
+2025-06-22 20:44:31,182 - INFO - OFERTA QUALIFICADA: 'Capa De Corte Bordado Cabeleireiro / Barbeiro'
+2025-06-22 20:44:32,605 - INFO - Imagem composta salva em: temp_images/composed_4954420839.png
+2025-06-22 20:44:35,960 - INFO - Oferta 'Capa De Corte Bordado Cabeleireiro / Barbeiro' postada com SUCESSO.
+2025-06-22 20:44:35,960 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 20:59:35,961 - INFO - 
+--- Buscando a melhor oferta geral na página: 17 ---
+2025-06-22 20:59:39,915 - INFO - OFERTA QUALIFICADA: 'Kit 12 Lenços Social Para Bolso Lenço de Cetim Lenço Casamento Festas'
+2025-06-22 20:59:40,632 - INFO - Imagem composta salva em: temp_images/composed_22993557411.png
+2025-06-22 20:59:44,027 - INFO - Oferta 'Kit 12 Lenços Social Para Bolso Lenço de Cetim Lenço Casamento Festas' postada com SUCESSO.
+2025-06-22 20:59:44,028 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 21:14:44,028 - INFO - 
+--- Buscando a melhor oferta geral na página: 18 ---
+2025-06-22 21:14:47,997 - INFO - OFERTA QUALIFICADA: 'EXG Touca de Cetim grande GIGANTE para Cabelos VOLUMOSOS LONGOS e com TRANÇAS'
+2025-06-22 21:14:48,647 - INFO - Imagem composta salva em: temp_images/composed_22193733231.png
+2025-06-22 21:14:52,129 - INFO - Oferta 'EXG Touca de Cetim grande GIGANTE para Cabelos VOLUMOSOS LONGOS e com TRANÇAS' postada com SUCESSO.
+2025-06-22 21:14:52,130 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 21:29:52,130 - INFO - 
+--- Buscando a melhor oferta geral na página: 19 ---
+2025-06-22 21:29:56,064 - INFO - OFERTA QUALIFICADA: 'Jaleco Manga Longa Feminino Oxford  PREMIUM Branco SUPER PROMOÇÃO'
+2025-06-22 21:29:56,550 - INFO - Imagem composta salva em: temp_images/composed_8713644107.png
+2025-06-22 21:29:59,887 - INFO - Oferta 'Jaleco Manga Longa Feminino Oxford  PREMIUM Branco SUPER PROMOÇÃO' postada com SUCESSO.
+2025-06-22 21:29:59,890 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 21:44:59,890 - INFO - 
+--- Buscando a melhor oferta geral na página: 20 ---
+2025-06-22 21:45:03,847 - INFO - Oferta 'EXG Touca de Cetim grande GIGANTE para Cabelos VOLUMOSOS LONGOS e com TRANÇAS' já postada. Pulando.
+2025-06-22 21:45:03,847 - INFO - 
+--- Buscando a melhor oferta geral na página: 21 ---
+2025-06-22 21:45:07,154 - INFO - Oferta 'Jaleco Manga Longa Feminino Oxford  PREMIUM Branco SUPER PROMOÇÃO' já postada. Pulando.
+2025-06-22 21:45:07,154 - INFO - 
+--- Buscando a melhor oferta geral na página: 22 ---
+2025-06-22 21:45:10,460 - INFO - OFERTA QUALIFICADA: 'Balaclava Caveira, Motoqueiro, Ciclista, Corrida Proteção UV Tubular Fantasia Bruxas'
+2025-06-22 21:45:10,917 - INFO - Imagem composta salva em: temp_images/composed_10207623912.png
+2025-06-22 21:45:14,237 - INFO - Oferta 'Balaclava Caveira, Motoqueiro, Ciclista, Corrida Proteção UV Tubular Fantasia Bruxas' postada com SUCESSO.
+2025-06-22 21:45:14,239 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 22:00:14,239 - INFO - 
+--- Buscando a melhor oferta geral na página: 23 ---
+2025-06-22 22:00:18,257 - INFO - OFERTA QUALIFICADA: 'Blusa T-shirt Feminina Administração Cinza Mescla'
+2025-06-22 22:00:19,255 - INFO - Imagem composta salva em: temp_images/composed_23297649598.png
+2025-06-22 22:00:22,841 - INFO - Oferta 'Blusa T-shirt Feminina Administração Cinza Mescla' postada com SUCESSO.
+2025-06-22 22:00:22,843 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 22:15:22,843 - INFO - 
+--- Buscando a melhor oferta geral na página: 24 ---
+2025-06-22 22:15:26,923 - INFO - OFERTA QUALIFICADA: 'Kit 5 Cuecas Boxer Short Sortidas De Micro Fibra Cueca Box Microfibra Conforto'
+2025-06-22 22:15:29,536 - INFO - Imagem composta salva em: temp_images/composed_18899554239.png
+2025-06-22 22:15:33,036 - INFO - Oferta 'Kit 5 Cuecas Boxer Short Sortidas De Micro Fibra Cueca Box Microfibra Conforto' postada com SUCESSO.
+2025-06-22 22:15:33,037 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 22:30:33,037 - INFO - 
+--- Buscando a melhor oferta geral na página: 25 ---
+2025-06-22 22:30:37,225 - INFO - OFERTA QUALIFICADA: 'Cueca Box Masculina de 100% Poliéster com Forro de Algodão'
+2025-06-22 22:30:37,820 - INFO - Imagem composta salva em: temp_images/composed_19397976353.png
+2025-06-22 22:30:41,251 - INFO - Oferta 'Cueca Box Masculina de 100% Poliéster com Forro de Algodão' postada com SUCESSO.
+2025-06-22 22:30:41,252 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 22:45:41,253 - INFO - 
+--- Buscando a melhor oferta geral na página: 26 ---
+2025-06-22 22:45:45,150 - INFO - OFERTA QUALIFICADA: 'KIT 2 Touca De Cetim Tal Mãe e Tal Filha Touca De Cetim Aba Larga Dormir Seda Gorro Cabelos'
+2025-06-22 22:45:45,979 - INFO - Imagem composta salva em: temp_images/composed_23797432130.png
+2025-06-22 22:45:49,366 - INFO - Oferta 'KIT 2 Touca De Cetim Tal Mãe e Tal Filha Touca De Cetim Aba Larga Dormir Seda Gorro Cabelos' postada com SUCESSO.
+2025-06-22 22:45:49,368 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 23:00:49,369 - INFO - 
+--- Buscando a melhor oferta geral na página: 27 ---
+2025-06-22 23:00:53,512 - INFO - OFERTA QUALIFICADA: 'Durag Touca bandana waves dread rapper Durags Lenço  Unissex Antifrizz'
+2025-06-22 23:00:54,157 - INFO - Imagem composta salva em: temp_images/composed_18121958912.png
+2025-06-22 23:00:57,545 - INFO - Oferta 'Durag Touca bandana waves dread rapper Durags Lenço  Unissex Antifrizz' postada com SUCESSO.
+2025-06-22 23:00:57,547 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 23:15:57,547 - INFO - 
+--- Buscando a melhor oferta geral na página: 28 ---
+2025-06-22 23:16:01,490 - INFO - OFERTA QUALIFICADA: 'Kit 3 Tiaras Faixa Testeira de Cabelo Academia Pilates Crossfit Caminhada Corrida Yoga Esportiva'
+2025-06-22 23:16:03,842 - INFO - Imagem composta salva em: temp_images/composed_22596452207.png
+2025-06-22 23:16:07,433 - INFO - Oferta 'Kit 3 Tiaras Faixa Testeira de Cabelo Academia Pilates Crossfit Caminhada Corrida Yoga Esportiva' postada com SUCESSO.
+2025-06-22 23:16:07,433 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 23:31:07,434 - INFO - 
+--- Buscando a melhor oferta geral na página: 29 ---
+2025-06-22 23:31:12,402 - INFO - OFERTA QUALIFICADA: '5x Bandana Balaclava Touca Bike Pesca Ciclismo Corrida Moto Inverno Frio Proteção Protetor solar'
+2025-06-22 23:31:15,278 - INFO - Imagem composta salva em: temp_images/composed_23593041883.png
+2025-06-22 23:31:18,581 - INFO - Oferta '5x Bandana Balaclava Touca Bike Pesca Ciclismo Corrida Moto Inverno Frio Proteção Protetor solar' postada com SUCESSO.
+2025-06-22 23:31:18,583 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-22 23:46:18,583 - INFO - 
+--- Buscando a melhor oferta geral na página: 30 ---
+2025-06-22 23:46:22,504 - INFO - OFERTA QUALIFICADA: 'Gorro Touca Malha Unisex Adulto Infantil Nero Cachos Homens Mulheres Zac Efron Beckham Justin Timberlake Cabelo'
+2025-06-22 23:46:23,058 - INFO - Imagem composta salva em: temp_images/composed_22093169910.png
+2025-06-22 23:46:26,437 - INFO - Oferta 'Gorro Touca Malha Unisex Adulto Infantil Nero Cachos Homens Mulheres Zac Efron Beckham Justin Timberlake Cabelo' postada com SUCESSO.
+2025-06-22 23:46:26,439 - INFO - Postagem OK. Aguardando 15 minutos...
+2025-06-27 12:34:31,430 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:34:31,430 - INFO - Carregadas 28 ofertas já postadas do histórico.
+2025-06-27 12:34:31,430 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-27 12:34:33,638 - ERROR - Erro GraphQL: [{'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".', 'locations': [{'line': 12, 'column': 11}], 'extensions': {'code': 10010, 'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".'}}]
+2025-06-27 12:34:33,638 - WARNING - Nenhuma oferta encontrada. Reiniciando da página 1 em 1 minuto.
+2025-06-27 12:35:33,639 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-27 12:35:35,898 - ERROR - Erro GraphQL: [{'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".', 'locations': [{'line': 12, 'column': 11}], 'extensions': {'code': 10010, 'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".'}}]
+2025-06-27 12:35:35,899 - WARNING - Nenhuma oferta encontrada. Reiniciando da página 1 em 1 minuto.
+2025-06-27 12:36:35,899 - INFO - 
+--- Buscando a melhor oferta geral na página: 1 ---
+2025-06-27 12:36:38,263 - ERROR - Erro GraphQL: [{'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".', 'locations': [{'line': 12, 'column': 11}], 'extensions': {'code': 10010, 'message': 'Cannot query field "voucherCode" on type "ProductOfferV2".'}}]
+2025-06-27 12:36:38,263 - WARNING - Nenhuma oferta encontrada. Reiniciando da página 1 em 1 minuto.
+2025-06-27 12:37:53,212 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:37:53,212 - INFO - Carregadas 28 ofertas já postadas do histórico.
+2025-06-27 12:37:53,212 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 12:37:57,520 - INFO - OFERTA NOVA ENCONTRADA: 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno'
+2025-06-27 12:37:58,941 - INFO - Imagem composta salva em: temp_images/composed_23097434087.png
+2025-06-27 12:38:02,879 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' postada com SUCESSO.
+2025-06-27 12:38:02,880 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 12:41:39,368 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:41:39,368 - INFO - Carregadas 29 ofertas já postadas do histórico.
+2025-06-27 12:41:39,368 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 12:41:43,391 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-27 12:41:43,391 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-27 12:41:46,804 - INFO - OFERTA NOVA ENCONTRADA: 'Capa Para Colchão Impermeavel Matelado Com Elastico'
+2025-06-27 12:41:47,374 - INFO - Imagem composta salva em: temp_images/composed_22992945609.png
+2025-06-27 12:41:50,893 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' postada com SUCESSO.
+2025-06-27 12:41:50,894 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 12:45:35,795 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:45:35,795 - INFO - Carregadas 0 ofertas já postadas do histórico.
+2025-06-27 12:45:35,795 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 12:45:39,951 - INFO - OFERTA NOVA ENCONTRADA: 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno'
+2025-06-27 12:45:40,573 - INFO - Imagem composta salva em: temp_images/composed_23097434087.png
+2025-06-27 12:45:47,592 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' postada com SUCESSO.
+2025-06-27 12:45:47,592 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 12:49:04,218 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:49:04,218 - INFO - Carregadas 1 ofertas já postadas do histórico.
+2025-06-27 12:49:04,218 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 12:49:08,230 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-27 12:49:08,230 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-27 12:49:11,734 - INFO - OFERTA NOVA ENCONTRADA: 'Capa Para Colchão Impermeavel Matelado Com Elastico'
+2025-06-27 12:49:13,322 - INFO - Imagem composta salva em: temp_images/composed_22992945609.png
+2025-06-27 12:49:20,185 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' postada com SUCESSO.
+2025-06-27 12:49:20,186 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 12:52:11,587 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 12:52:11,587 - INFO - Carregadas 0 ofertas já postadas do histórico.
+2025-06-27 12:52:11,587 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 12:52:15,953 - INFO - OFERTA NOVA ENCONTRADA: 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno'
+2025-06-27 12:52:16,545 - INFO - Imagem composta salva em: temp_images/composed_23097434087.png
+2025-06-27 12:52:23,160 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' postada com SUCESSO.
+2025-06-27 12:52:23,161 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 13:07:23,161 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-27 13:07:27,464 - INFO - OFERTA NOVA ENCONTRADA: 'Capa Para Colchão Impermeavel Matelado Com Elastico'
+2025-06-27 13:07:28,198 - INFO - Imagem composta salva em: temp_images/composed_22992945609.png
+2025-06-27 13:07:31,561 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' postada com SUCESSO.
+2025-06-27 13:07:31,561 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 13:22:31,562 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-27 13:22:35,740 - INFO - OFERTA NOVA ENCONTRADA: 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul'
+2025-06-27 13:22:36,381 - INFO - Imagem composta salva em: temp_images/composed_22693952744.png
+2025-06-27 13:22:42,395 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' postada com SUCESSO.
+2025-06-27 13:22:42,395 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 13:37:42,396 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-27 13:37:42,397 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8865e8bd90>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 13:37:42,397 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 13:38:42,397 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 13:38:42,398 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8865e8bc50>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 13:38:42,398 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 13:39:43,328 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 13:39:43,328 - INFO - Carregadas 3 ofertas já postadas do histórico.
+2025-06-27 13:39:43,328 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 13:39:47,517 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-27 13:39:47,517 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-27 13:39:51,305 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' já foi postada anteriormente. Pulando.
+2025-06-27 13:39:51,305 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-27 13:39:54,993 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' já foi postada anteriormente. Pulando.
+2025-06-27 13:39:54,993 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-27 13:39:58,681 - INFO - OFERTA NOVA ENCONTRADA: 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg'
+2025-06-27 13:39:59,237 - INFO - Imagem composta salva em: temp_images/composed_23193680985.png
+2025-06-27 13:42:18,059 - INFO - Oferta 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg' postada com SUCESSO.
+2025-06-27 13:42:18,060 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 13:57:18,060 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 5) ---
+2025-06-27 13:57:22,378 - INFO - OFERTA NOVA ENCONTRADA: 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável'
+2025-06-27 13:57:23,144 - INFO - Imagem composta salva em: temp_images/composed_12496562531.png
+2025-06-27 13:59:40,414 - INFO - Oferta 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável' postada com SUCESSO.
+2025-06-27 13:59:40,415 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 14:14:40,415 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 6) ---
+2025-06-27 14:14:44,912 - INFO - OFERTA NOVA ENCONTRADA: 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42'
+2025-06-27 14:14:45,549 - INFO - Imagem composta salva em: temp_images/composed_14368641482.png
+2025-06-27 14:17:03,039 - INFO - Oferta 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42' postada com SUCESSO.
+2025-06-27 14:17:03,040 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 14:32:03,040 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 7) ---
+2025-06-27 14:32:07,397 - INFO - OFERTA NOVA ENCONTRADA: 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim'
+2025-06-27 14:32:07,961 - INFO - Imagem composta salva em: temp_images/composed_22393089128.png
+2025-06-27 14:34:25,633 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim' postada com SUCESSO.
+2025-06-27 14:34:25,633 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 14:49:25,633 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 8) ---
+2025-06-27 14:49:29,828 - INFO - OFERTA NOVA ENCONTRADA: 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno'
+2025-06-27 14:49:31,142 - INFO - Imagem composta salva em: temp_images/composed_23098455814.png
+2025-06-27 14:51:49,832 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' postada com SUCESSO.
+2025-06-27 14:51:49,834 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 15:06:49,834 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 9) ---
+2025-06-27 15:06:54,161 - INFO - OFERTA NOVA ENCONTRADA: 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma'
+2025-06-27 15:06:55,275 - INFO - Imagem composta salva em: temp_images/composed_21599248399.png
+2025-06-27 15:09:14,147 - INFO - Oferta 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma' postada com SUCESSO.
+2025-06-27 15:09:14,148 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 15:24:14,148 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 10) ---
+2025-06-27 15:24:18,444 - INFO - OFERTA NOVA ENCONTRADA: 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito'
+2025-06-27 15:24:18,906 - INFO - Imagem composta salva em: temp_images/composed_23198023637.png
+2025-06-27 15:26:36,679 - INFO - Oferta 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito' postada com SUCESSO.
+2025-06-27 15:26:36,679 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 15:41:36,679 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 11) ---
+2025-06-27 15:41:40,860 - INFO - OFERTA NOVA ENCONTRADA: 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING'
+2025-06-27 15:41:41,829 - INFO - Imagem composta salva em: temp_images/composed_23997501583.png
+2025-06-27 15:43:26,480 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 15:43:26,480 - INFO - Carregadas 10 ofertas já postadas do histórico.
+2025-06-27 15:43:26,480 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 15:43:30,939 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:30,939 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-27 15:43:34,831 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:34,832 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-27 15:43:38,723 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:38,723 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-27 15:43:42,716 - INFO - Oferta 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:42,716 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 5) ---
+2025-06-27 15:43:46,405 - INFO - Oferta 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:46,405 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 6) ---
+2025-06-27 15:43:50,191 - INFO - Oferta 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:50,191 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 7) ---
+2025-06-27 15:43:53,774 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:53,774 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 8) ---
+2025-06-27 15:43:57,591 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim' já foi postada anteriormente. Pulando.
+2025-06-27 15:43:57,591 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 9) ---
+2025-06-27 15:44:01,149 - INFO - Oferta 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma' já foi postada anteriormente. Pulando.
+2025-06-27 15:44:01,150 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 10) ---
+2025-06-27 15:44:04,837 - INFO - Oferta 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito' já foi postada anteriormente. Pulando.
+2025-06-27 15:44:04,837 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 11) ---
+2025-06-27 15:44:08,315 - INFO - OFERTA NOVA ENCONTRADA: 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING'
+2025-06-27 15:44:09,286 - INFO - Imagem composta salva em: temp_images/composed_23997501583.png
+2025-06-27 15:46:30,376 - INFO - Oferta 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING' postada com SUCESSO.
+2025-06-27 15:46:30,377 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 16:01:30,378 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 12) ---
+2025-06-27 16:01:34,858 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 18 Pares de Meias Soquete Cano Curto Masculina Feminina Unissex varejo'
+2025-06-27 16:01:35,383 - INFO - Imagem composta salva em: temp_images/composed_23492991813.png
+2025-06-27 16:03:53,417 - INFO - Oferta 'Kit 18 Pares de Meias Soquete Cano Curto Masculina Feminina Unissex varejo' postada com SUCESSO.
+2025-06-27 16:03:53,418 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-27 16:18:53,418 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 13) ---
+2025-06-27 16:18:53,422 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f569f5f7b10>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:18:53,422 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 16:19:53,423 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 16:19:53,427 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f569f5f7d90>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:19:53,427 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 16:20:53,427 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 16:20:53,431 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f569ed2c190>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:20:53,431 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 16:21:53,432 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 16:21:53,436 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f569ed2c550>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:21:53,436 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 16:53:12,601 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 16:53:12,605 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f569ed2c910>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:53:12,605 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-27 16:53:22,850 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-27 16:53:22,850 - INFO - Carregadas 12 ofertas já postadas do histórico.
+2025-06-27 16:53:22,850 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-27 16:53:22,853 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7feaed5dcec0>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-27 16:53:22,853 - WARNING - Nenhuma oferta nova encontrada. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-28 08:57:57,274 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-28 08:57:57,275 - INFO - Carregadas 12 ofertas já postadas do histórico.
+2025-06-28 08:57:57,275 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-28 08:58:01,612 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:01,612 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-28 08:58:05,295 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:05,295 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-28 08:58:08,980 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:08,980 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-28 08:58:12,670 - INFO - Oferta 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:12,670 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 5) ---
+2025-06-28 08:58:16,353 - INFO - Oferta 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:16,353 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 6) ---
+2025-06-28 08:58:20,040 - INFO - Oferta 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:20,040 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 7) ---
+2025-06-28 08:58:23,727 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:23,727 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 8) ---
+2025-06-28 08:58:27,414 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:27,414 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 9) ---
+2025-06-28 08:58:31,100 - INFO - Oferta 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:31,100 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 10) ---
+2025-06-28 08:58:34,786 - INFO - Oferta 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:34,786 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 11) ---
+2025-06-28 08:58:38,473 - INFO - Oferta 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:38,473 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 12) ---
+2025-06-28 08:58:42,168 - INFO - Oferta 'Kit 18 Pares de Meias Soquete Cano Curto Masculina Feminina Unissex varejo' já foi postada anteriormente. Pulando.
+2025-06-28 08:58:42,168 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 13) ---
+2025-06-28 08:58:45,848 - INFO - OFERTA NOVA ENCONTRADA: 'Jogo de Cama Lençol 400 Fios Micropercal'
+2025-06-28 08:58:46,332 - INFO - Imagem composta salva em: temp_images/composed_23793614115.png
+2025-06-28 08:58:50,354 - INFO - Oferta 'Jogo de Cama Lençol 400 Fios Micropercal' postada com SUCESSO.
+2025-06-28 08:58:50,354 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-28 09:13:51,152 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 14) ---
+2025-06-28 09:13:55,453 - INFO - OFERTA NOVA ENCONTRADA: 'Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável'
+2025-06-28 09:13:55,976 - INFO - Imagem composta salva em: temp_images/composed_23997182498.png
+2025-06-28 09:13:59,857 - INFO - Oferta 'Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável' postada com SUCESSO.
+2025-06-28 09:13:59,858 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-28 09:59:40,555 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-28 09:59:40,555 - INFO - Carregadas 14 ofertas já postadas do histórico.
+2025-06-28 09:59:40,555 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-28 09:59:44,996 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 09:59:44,996 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-28 09:59:48,923 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' já foi postada anteriormente. Pulando.
+2025-06-28 09:59:48,923 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-28 09:59:52,573 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' já foi postada anteriormente. Pulando.
+2025-06-28 09:59:52,573 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-28 09:59:56,260 - INFO - Oferta 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg' já foi postada anteriormente. Pulando.
+2025-06-28 09:59:56,260 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 5) ---
+2025-06-28 09:59:59,946 - INFO - Oferta 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável' já foi postada anteriormente. Pulando.
+2025-06-28 09:59:59,946 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 6) ---
+2025-06-28 10:00:03,632 - INFO - Oferta 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:03,632 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 7) ---
+2025-06-28 10:00:07,220 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:07,220 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 8) ---
+2025-06-28 10:00:10,697 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:10,697 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 9) ---
+2025-06-28 10:00:14,280 - INFO - Oferta 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:14,280 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 10) ---
+2025-06-28 10:00:17,705 - INFO - Oferta 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:17,705 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 11) ---
+2025-06-28 10:00:21,347 - INFO - Oferta 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:21,347 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 12) ---
+2025-06-28 10:00:25,034 - INFO - Oferta 'Kit 18 Pares de Meias Soquete Cano Curto Masculina Feminina Unissex varejo' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:25,034 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 13) ---
+2025-06-28 10:00:28,618 - INFO - Oferta 'Jogo de Cama Lençol 400 Fios Micropercal' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:28,618 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 14) ---
+2025-06-28 10:00:32,305 - INFO - Oferta 'Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável' já foi postada anteriormente. Pulando.
+2025-06-28 10:00:32,305 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 15) ---
+2025-06-28 10:00:35,715 - INFO - OFERTA NOVA ENCONTRADA: 'JBSARA Soro Renovador De retinol 1ml Envio Da Coreia'
+2025-06-28 10:00:36,158 - INFO - Imagem composta salva em: temp_images/composed_26970547389.png
+2025-06-28 10:00:39,986 - INFO - Oferta 'JBSARA Soro Renovador De retinol 1ml Envio Da Coreia' postada com SUCESSO.
+2025-06-28 10:00:39,986 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-28 10:36:22,650 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-28 10:36:22,650 - INFO - Carregadas 15 ofertas já postadas do histórico.
+2025-06-28 10:36:22,650 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 1) ---
+2025-06-28 10:36:26,853 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:26,853 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 2) ---
+2025-06-28 10:36:30,642 - INFO - Oferta 'Capa Para Colchão Impermeavel Matelado Com Elastico' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:30,642 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 3) ---
+2025-06-28 10:36:35,049 - INFO - Oferta 'KIt 1/2 Livros Bob Goods para Colorir Capa Dura 48 Folhas Rosa e Azul' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:35,049 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 4) ---
+2025-06-28 10:36:38,734 - INFO - Oferta 'Tira manchas alvejante 1kg + Percarbonato de sódio 1kg' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:38,734 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 5) ---
+2025-06-28 10:36:42,420 - INFO - Oferta 'Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:42,420 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 6) ---
+2025-06-28 10:36:46,112 - INFO - Oferta 'Kit Ate 15 Pares Meia Cano Alto Algodão Unissex 36-42' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:46,112 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 7) ---
+2025-06-28 10:36:49,798 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:49,798 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 8) ---
+2025-06-28 10:36:53,393 - INFO - Oferta 'ROMANTIC CROWN Meia-Calça Feminina Legging Térmica Forrada Peluciada de Lã Super Elástica Slim' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:53,393 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 9) ---
+2025-06-28 10:36:56,860 - INFO - Oferta 'Mesas de Cabeceira Retro para Quarto Casal ou Solteiro Nicho Decoração Palma' já foi postada anteriormente. Pulando.
+2025-06-28 10:36:56,861 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 10) ---
+2025-06-28 10:37:00,463 - INFO - Oferta 'Kit Lencol Casal Queen Extra Macio 400 Fios Micropercal Com Ponto Palito' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:00,463 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 11) ---
+2025-06-28 10:37:03,855 - INFO - Oferta 'ENVIO FULL KIT 10 PLACAS DE CABECEIRA ESTOFADA AUTO COLANTE PARA CAMA SUPER KING' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:03,855 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 12) ---
+2025-06-28 10:37:07,308 - INFO - Oferta 'Kit 18 Pares de Meias Soquete Cano Curto Masculina Feminina Unissex varejo' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:07,309 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 13) ---
+2025-06-28 10:37:10,899 - INFO - Oferta 'Jogo de Cama Lençol 400 Fios Micropercal' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:10,899 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 14) ---
+2025-06-28 10:37:14,480 - INFO - Oferta 'Kit com 2 Pares de Palmilha Ortopédica em Gel Para Várias Horas de Trabalho Alivia Dores Confortável' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:14,480 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 15) ---
+2025-06-28 10:37:18,066 - INFO - Oferta 'JBSARA Soro Renovador De retinol 1ml Envio Da Coreia' já foi postada anteriormente. Pulando.
+2025-06-28 10:37:18,066 - INFO - 
+--- Buscando pelas ofertas comissionadas mais recentes (Página: 16) ---
+2025-06-28 10:37:21,681 - INFO - OFERTA NOVA ENCONTRADA: '24/36/48/60/80/100/120 Cores Caneta Marcadora canetinhas coloridas Kit Com Ponta Dupla/marcador touch/caneta marker'
+2025-06-28 10:37:22,191 - INFO - Imagem composta salva em: temp_images/composed_23698172235.png
+2025-06-28 10:37:26,491 - INFO - Oferta '24/36/48/60/80/100/120 Cores Caneta Marcadora canetinhas coloridas Kit Com Ponta Dupla/marcador touch/caneta marker' postada com SUCESSO.
+2025-06-28 10:37:26,492 - INFO - Postagem OK. Aguardando 15 minutos para a próxima...
+2025-06-28 10:51:00,420 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-28 10:51:00,420 - INFO - Carregadas 16 ofertas já postadas do histórico.
+2025-06-28 10:51:00,420 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 10:51:04,852 - INFO - OFERTA NOVA ENCONTRADA: 'Castanha de Caju 1Kg (Com ou sem Sal) - P&P'
+2025-06-28 10:51:05,521 - INFO - Imagem composta salva em: temp_images/composed_23895716611.png
+2025-06-28 10:51:09,541 - INFO - Oferta 'Castanha de Caju 1Kg (Com ou sem Sal) - P&P' postada com SUCESSO.
+2025-06-28 10:51:09,542 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 11:06:09,542 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 11:06:13,941 - INFO - OFERTA NOVA ENCONTRADA: 'kit Coala Home Chá Branco'
+2025-06-28 11:06:14,406 - INFO - Imagem composta salva em: temp_images/composed_20697874559.png
+2025-06-28 11:06:18,328 - INFO - Oferta 'kit Coala Home Chá Branco' postada com SUCESSO.
+2025-06-28 11:06:18,328 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 11:21:18,328 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 11:21:22,772 - INFO - OFERTA NOVA ENCONTRADA: 'kit Tapete para Banheiro de Secagem Rápida e Super Absorvente - Ideal para Chuveiro, Cozinha e Varanda'
+2025-06-28 11:21:23,220 - INFO - Imagem composta salva em: temp_images/composed_22097308942.png
+2025-06-28 11:21:26,875 - INFO - Oferta 'kit Tapete para Banheiro de Secagem Rápida e Super Absorvente - Ideal para Chuveiro, Cozinha e Varanda' postada com SUCESSO.
+2025-06-28 11:21:26,875 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 11:36:26,875 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 11:36:31,183 - INFO - OFERTA NOVA ENCONTRADA: 'Kit Livro De Colorir  Capa Dura 50 Páginas + Canetinhas Ponta Dupla Marca Texto 12/24/36/48/60'
+2025-06-28 11:36:31,938 - INFO - Imagem composta salva em: temp_images/composed_22898425570.png
+2025-06-28 11:36:38,269 - INFO - Oferta 'Kit Livro De Colorir  Capa Dura 50 Páginas + Canetinhas Ponta Dupla Marca Texto 12/24/36/48/60' postada com SUCESSO.
+2025-06-28 11:36:38,269 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 11:51:38,270 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 11:51:42,977 - INFO - OFERTA NOVA ENCONTRADA: 'Legging Flanelada Feminina Peluciada Quentinha Inverno'
+2025-06-28 11:51:43,456 - INFO - Imagem composta salva em: temp_images/composed_23592928586.png
+2025-06-28 11:51:47,379 - INFO - Oferta 'Legging Flanelada Feminina Peluciada Quentinha Inverno' postada com SUCESSO.
+2025-06-28 11:51:47,380 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 12:06:47,380 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 12:06:52,270 - INFO - OFERTA NOVA ENCONTRADA: 'Meia-Calça Térmica Forrada Peluciada Translúcida de Lã Feminina Super Elástica Slim 220g-Tamanho Unico'
+2025-06-28 12:06:52,946 - INFO - Imagem composta salva em: temp_images/composed_23193880059.png
+2025-06-28 12:06:57,491 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida de Lã Feminina Super Elástica Slim 220g-Tamanho Unico' postada com SUCESSO.
+2025-06-28 12:06:57,491 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 12:21:57,491 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 12:22:01,928 - INFO - OFERTA NOVA ENCONTRADA: 'Calça legging Feminina Flanelada Cintura alta'
+2025-06-28 12:22:02,899 - INFO - Imagem composta salva em: temp_images/composed_23093203357.png
+2025-06-28 12:22:06,910 - INFO - Oferta 'Calça legging Feminina Flanelada Cintura alta' postada com SUCESSO.
+2025-06-28 12:22:06,911 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 12:37:06,911 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 12:37:11,603 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 10 Petisqueira Barquinha Canoa Petiscos Churrasco Festa Frios Para Servir Amendoim Caldo Branca'
+2025-06-28 12:37:12,923 - INFO - Imagem composta salva em: temp_images/composed_22698377160.png
+2025-06-28 12:37:17,339 - INFO - Oferta 'Kit 10 Petisqueira Barquinha Canoa Petiscos Churrasco Festa Frios Para Servir Amendoim Caldo Branca' postada com SUCESSO.
+2025-06-28 12:37:17,340 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 12:52:17,340 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 12:52:21,943 - INFO - OFERTA NOVA ENCONTRADA: '40 Peças / 46 Peças Jogo De Chave Catraca Caixa De Ferramentas Completa Reversível Soquetes Maleta'
+2025-06-28 12:52:22,672 - INFO - Imagem composta salva em: temp_images/composed_22892833180.png
+2025-06-28 12:52:26,860 - INFO - Oferta '40 Peças / 46 Peças Jogo De Chave Catraca Caixa De Ferramentas Completa Reversível Soquetes Maleta' postada com SUCESSO.
+2025-06-28 12:52:26,860 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 13:07:26,861 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 13:07:31,248 - INFO - OFERTA NOVA ENCONTRADA: 'Jogo de Lençol 03 Peças 400 Fios Cama Casal Queen Micropercal Ponto Palito'
+2025-06-28 13:07:31,733 - INFO - Imagem composta salva em: temp_images/composed_16692338189.png
+2025-06-28 13:07:35,561 - INFO - Oferta 'Jogo de Lençol 03 Peças 400 Fios Cama Casal Queen Micropercal Ponto Palito' postada com SUCESSO.
+2025-06-28 13:07:35,561 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 13:22:35,561 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 13:22:40,580 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 4 Travesseiro Pluma de Ganso Confortavel e Macio Antiacaro 70x50cm'
+2025-06-28 13:22:41,089 - INFO - Imagem composta salva em: temp_images/composed_23693732086.png
+2025-06-28 13:22:45,083 - INFO - Oferta 'Kit 4 Travesseiro Pluma de Ganso Confortavel e Macio Antiacaro 70x50cm' postada com SUCESSO.
+2025-06-28 13:22:45,084 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 13:37:45,084 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 13:37:49,582 - INFO - OFERTA NOVA ENCONTRADA: 'Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso'
+2025-06-28 13:37:50,113 - INFO - Imagem composta salva em: temp_images/composed_23592798319.png
+2025-06-28 13:37:57,670 - INFO - Oferta 'Caixa Saco Organizador Cobertor Casaco Guarda Roupa Ecológico Anti-Poeira Umidade Insetos Multiuso' postada com SUCESSO.
+2025-06-28 13:37:57,671 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 13:52:57,671 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 13:53:02,073 - INFO - OFERTA NOVA ENCONTRADA: '2 LEG SUPLEX LISA zero transparência'
+2025-06-28 13:53:02,845 - INFO - Imagem composta salva em: temp_images/composed_20498755894.png
+2025-06-28 13:53:07,086 - INFO - Oferta '2 LEG SUPLEX LISA zero transparência' postada com SUCESSO.
+2025-06-28 13:53:07,086 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 14:08:07,086 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 14:08:11,717 - INFO - OFERTA NOVA ENCONTRADA: 'Areia Catbio Biodegradável 4 Kg - Max Clean - Grãos Finos'
+2025-06-28 14:08:13,022 - INFO - Imagem composta salva em: temp_images/composed_22996121313.png
+2025-06-28 14:08:17,756 - INFO - Oferta 'Areia Catbio Biodegradável 4 Kg - Max Clean - Grãos Finos' postada com SUCESSO.
+2025-06-28 14:08:17,756 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 14:23:17,757 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 14:23:23,330 - INFO - OFERTA NOVA ENCONTRADA: 'Mini Aspirador de Pó Portátil Automotivo Casa Sem Fio 3 em 1 Recarregável Potente 6000Pa'
+2025-06-28 14:23:24,097 - INFO - Imagem composta salva em: temp_images/composed_23093489477.png
+2025-06-28 14:23:28,041 - INFO - Oferta 'Mini Aspirador de Pó Portátil Automotivo Casa Sem Fio 3 em 1 Recarregável Potente 6000Pa' postada com SUCESSO.
+2025-06-28 14:23:28,042 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 14:38:28,042 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 14:38:32,569 - INFO - OFERTA NOVA ENCONTRADA: 'Meia Calca Feminina inverno Pelciada Termica Translucido De Pelina Com Pelo Dentro Slim Plus Size Leggings P/M/GG'
+2025-06-28 14:38:33,575 - INFO - Imagem composta salva em: temp_images/composed_19599246532.png
+2025-06-28 14:38:37,688 - INFO - Oferta 'Meia Calca Feminina inverno Pelciada Termica Translucido De Pelina Com Pelo Dentro Slim Plus Size Leggings P/M/GG' postada com SUCESSO.
+2025-06-28 14:38:37,689 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 14:53:37,689 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 14:53:42,555 - INFO - OFERTA NOVA ENCONTRADA: 'Protetor Para Colchão 100% Impermeavel com Elastico em Toda Volta'
+2025-06-28 14:53:43,106 - INFO - Imagem composta salva em: temp_images/composed_22591754767.png
+2025-06-28 14:53:47,265 - INFO - Oferta 'Protetor Para Colchão 100% Impermeavel com Elastico em Toda Volta' postada com SUCESSO.
+2025-06-28 14:53:47,266 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 15:08:47,266 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 15:08:52,178 - INFO - OFERTA NOVA ENCONTRADA: 'Meia-Calça Térmica Feminina Super Stretch De Inverna Com a Forra Translúcida De Pelucida Termica'
+2025-06-28 15:08:53,032 - INFO - Imagem composta salva em: temp_images/composed_23092937581.png
+2025-06-28 15:09:01,083 - INFO - Oferta 'Meia-Calça Térmica Feminina Super Stretch De Inverna Com a Forra Translúcida De Pelucida Termica' postada com SUCESSO.
+2025-06-28 15:09:01,084 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 15:24:01,084 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 15:24:05,911 - INFO - OFERTA NOVA ENCONTRADA: 'Conjunto Segunda Pele Térmica Flanelado Frio Intenso Preto Proteção Uv+50 Masculino Feminino Unissex'
+2025-06-28 15:24:06,745 - INFO - Imagem composta salva em: temp_images/composed_21599079416.png
+2025-06-28 15:24:10,722 - INFO - Oferta 'Conjunto Segunda Pele Térmica Flanelado Frio Intenso Preto Proteção Uv+50 Masculino Feminino Unissex' postada com SUCESSO.
+2025-06-28 15:24:10,724 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 15:39:10,724 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 15:39:15,340 - INFO - OFERTA NOVA ENCONTRADA: 'Inox Prata Torneira com chuveiro com rotação de 360° Cozinha Luxo Parede Promoção'
+2025-06-28 15:39:16,238 - INFO - Imagem composta salva em: temp_images/composed_21097736963.png
+2025-06-28 15:39:20,048 - INFO - Oferta 'Inox Prata Torneira com chuveiro com rotação de 360° Cozinha Luxo Parede Promoção' postada com SUCESSO.
+2025-06-28 15:39:20,050 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 15:54:20,050 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 15:54:24,659 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 10 Limpador de máquina de lavar, comprimido efervescente sólido para remover manchas'
+2025-06-28 15:54:25,957 - INFO - Imagem composta salva em: temp_images/composed_23892665618.png
+2025-06-28 15:54:29,881 - INFO - Oferta 'Kit 10 Limpador de máquina de lavar, comprimido efervescente sólido para remover manchas' postada com SUCESSO.
+2025-06-28 15:54:29,883 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 16:09:29,883 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 16:09:34,492 - INFO - OFERTA NOVA ENCONTRADA: 'Creme Para Pentear Definição Natural 1kg'
+2025-06-28 16:09:35,435 - INFO - Imagem composta salva em: temp_images/composed_22895570776.png
+2025-06-28 16:09:39,205 - INFO - Oferta 'Creme Para Pentear Definição Natural 1kg' postada com SUCESSO.
+2025-06-28 16:09:39,206 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 16:24:39,207 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 16:24:44,022 - INFO - OFERTA NOVA ENCONTRADA: 'Esfregão Elétrico Sem fio Escova De Limpeza Pesada Multiuso 360 Recarregável Giratória'
+2025-06-28 16:24:44,927 - INFO - Imagem composta salva em: temp_images/composed_22293168519.png
+2025-06-28 16:24:48,936 - INFO - Oferta 'Esfregão Elétrico Sem fio Escova De Limpeza Pesada Multiuso 360 Recarregável Giratória' postada com SUCESSO.
+2025-06-28 16:24:48,938 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-28 16:39:48,938 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-28 16:39:53,453 - INFO - OFERTA NOVA ENCONTRADA: 'Fone De Ouvido Sem Fio E6s Bluetooth 5.0  Tws Preto'
+2025-06-28 16:39:54,166 - INFO - Imagem composta salva em: temp_images/composed_8514428979.png
+2025-06-28 16:39:58,536 - INFO - Oferta 'Fone De Ouvido Sem Fio E6s Bluetooth 5.0  Tws Preto' postada com SUCESSO.
+2025-06-28 16:39:58,537 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 18:12:57,256 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-29 18:12:57,256 - INFO - Carregadas 40 ofertas já postadas do histórico.
+2025-06-29 18:12:57,256 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:13:02,009 - INFO - OFERTA NOVA ENCONTRADA: 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno'
+2025-06-29 18:13:02,912 - INFO - Imagem composta salva em: temp_images/composed_22698348679.png
+2025-06-29 18:13:07,537 - INFO - Oferta 'Meia-Calça Térmica Forrada Peluciada Translúcida De Lã Quente Feminina Para Inverno' postada com SUCESSO.
+2025-06-29 18:13:07,538 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 18:28:07,538 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:28:07,539 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435ccd0>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:28:07,539 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:29:07,539 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:29:07,540 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435d450>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:29:07,540 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:30:07,540 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:30:07,541 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435ce10>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:30:07,541 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:31:07,542 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:31:07,542 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435d1d0>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:31:07,542 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:32:07,543 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:32:07,543 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435d810>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:32:07,543 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:33:07,544 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:33:07,544 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435dbd0>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:33:07,544 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:34:07,545 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:34:07,545 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb57435df90>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:34:07,545 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:34:28,077 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-29 18:34:28,077 - INFO - Carregadas 41 ofertas já postadas do histórico.
+2025-06-29 18:34:28,077 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:34:28,078 - ERROR - Erro de requisição: HTTPSConnectionPool(host='open-api.affiliate.shopee.com.br', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f302f9e4ec0>: Failed to resolve 'open-api.affiliate.shopee.com.br' ([Errno -3] Temporary failure in name resolution)"))
+2025-06-29 18:34:28,078 - WARNING - Nenhuma oferta encontrada nesta página. Reiniciando a busca da página 1 em 1 minuto.
+2025-06-29 18:36:25,650 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-29 18:36:25,650 - INFO - Carregadas 41 ofertas já postadas do histórico.
+2025-06-29 18:36:25,651 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:36:30,629 - INFO - OFERTA NOVA ENCONTRADA: 'M10 Fone De Ouvido bluetooth 5.1 Com display Led Tws Touch Redução De Ruído À Prova D'água Sem Fio'
+2025-06-29 18:36:31,132 - INFO - Imagem composta salva em: temp_images/composed_23696598948.png
+2025-06-29 18:36:35,240 - INFO - Oferta 'M10 Fone De Ouvido bluetooth 5.1 Com display Led Tws Touch Redução De Ruído À Prova D'água Sem Fio' postada com SUCESSO.
+2025-06-29 18:36:35,240 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 18:51:35,241 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 18:51:40,269 - INFO - OFERTA NOVA ENCONTRADA: 'Fone De Ouvido Tws Bluetooth V5.0 Touch - I12'
+2025-06-29 18:51:40,636 - INFO - Imagem composta salva em: temp_images/composed_16530797394.png
+2025-06-29 18:51:44,568 - INFO - Oferta 'Fone De Ouvido Tws Bluetooth V5.0 Touch - I12' postada com SUCESSO.
+2025-06-29 18:51:44,568 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 19:06:44,568 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 19:06:49,589 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 10 Cuecas Boxer Roupas Masculinas'
+2025-06-29 19:06:50,107 - INFO - Imagem composta salva em: temp_images/composed_13443602897.png
+2025-06-29 19:06:54,197 - INFO - Oferta 'Kit 10 Cuecas Boxer Roupas Masculinas' postada com SUCESSO.
+2025-06-29 19:06:54,198 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 20:24:53,147 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-29 20:24:53,148 - INFO - Carregadas 44 ofertas já postadas do histórico.
+2025-06-29 20:24:53,148 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 20:24:58,308 - INFO - OFERTA NOVA ENCONTRADA: 'ROMANTIC CROWN Copo Térmico Inox Portátil 1200ml/1.2L Garrafa Térmica Inoxidável com Tampa e Canudo'
+2025-06-29 20:24:59,209 - INFO - Imagem composta salva em: temp_images/composed_22393139100.png
+2025-06-29 20:25:06,302 - INFO - Oferta 'ROMANTIC CROWN Copo Térmico Inox Portátil 1200ml/1.2L Garrafa Térmica Inoxidável com Tampa e Canudo' postada com SUCESSO.
+2025-06-29 20:25:06,302 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 20:40:06,303 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 20:40:11,141 - INFO - OFERTA NOVA ENCONTRADA: 'Kit C/ 2 Sutiãs Básicos Reforçados Microfibra com Bojo - Lingerie Direto da Fábrica Tamanhos P ao GG'
+2025-06-29 20:40:11,913 - INFO - Imagem composta salva em: temp_images/composed_23697498887.png
+2025-06-29 20:40:15,749 - INFO - Oferta 'Kit C/ 2 Sutiãs Básicos Reforçados Microfibra com Bojo - Lingerie Direto da Fábrica Tamanhos P ao GG' postada com SUCESSO.
+2025-06-29 20:40:15,750 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 20:55:15,750 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 20:55:20,552 - INFO - OFERTA NOVA ENCONTRADA: 'Jogo de Lençol Queen 400 fios Luna 3 Peças Ponto Palito Micro Percal'
+2025-06-29 20:55:21,190 - INFO - Imagem composta salva em: temp_images/composed_22697992697.png
+2025-06-29 20:55:25,163 - INFO - Oferta 'Jogo de Lençol Queen 400 fios Luna 3 Peças Ponto Palito Micro Percal' postada com SUCESSO.
+2025-06-29 20:55:25,164 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 21:10:25,164 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 21:10:29,870 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 2 Travesseiro Pluma de Ganso Descanso Antiacaro 70x50cm'
+2025-06-29 21:10:31,246 - INFO - Imagem composta salva em: temp_images/composed_19798930110.png
+2025-06-29 21:10:35,092 - INFO - Oferta 'Kit 2 Travesseiro Pluma de Ganso Descanso Antiacaro 70x50cm' postada com SUCESSO.
+2025-06-29 21:10:35,093 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 21:25:35,093 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 21:25:40,120 - INFO - OFERTA NOVA ENCONTRADA: 'caneca Kit Garrafa Térmica Vacuum Bottle Inox 500ml + 3 Xícaras Bebidas Fria ou Quente'
+2025-06-29 21:25:40,717 - INFO - Imagem composta salva em: temp_images/composed_22192647025.png
+2025-06-29 21:25:44,727 - INFO - Oferta 'caneca Kit Garrafa Térmica Vacuum Bottle Inox 500ml + 3 Xícaras Bebidas Fria ou Quente' postada com SUCESSO.
+2025-06-29 21:25:44,728 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 21:40:44,728 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 21:40:49,529 - INFO - OFERTA NOVA ENCONTRADA: 'Calça Jeans Feminina Wide Leg Marmorizada Cintura Alta Sem Lycra'
+2025-06-29 21:40:52,192 - INFO - Imagem composta salva em: temp_images/composed_21999543034.png
+2025-06-29 21:40:56,287 - INFO - Oferta 'Calça Jeans Feminina Wide Leg Marmorizada Cintura Alta Sem Lycra' postada com SUCESSO.
+2025-06-29 21:40:56,287 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 21:55:56,288 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 21:56:01,099 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-29 21:56:01,099 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-29 21:56:05,191 - INFO - OFERTA NOVA ENCONTRADA: 'Capa de Colchão Impermeável Box Protetor Impermeável Solteiro, Casal, Queen e King'
+2025-06-29 21:56:05,671 - INFO - Imagem composta salva em: temp_images/composed_20797924626.png
+2025-06-29 21:56:09,492 - INFO - Oferta 'Capa de Colchão Impermeável Box Protetor Impermeável Solteiro, Casal, Queen e King' postada com SUCESSO.
+2025-06-29 21:56:09,492 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 22:11:09,492 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 22:11:14,508 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-29 22:11:14,508 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-29 22:11:18,399 - INFO - OFERTA NOVA ENCONTRADA: 'Kit Lençol Cama Casal Queen 400 fios Micropercal 03 Peças Ponto Palito'
+2025-06-29 22:11:18,927 - INFO - Imagem composta salva em: temp_images/composed_18499246242.png
+2025-06-29 22:11:22,904 - INFO - Oferta 'Kit Lençol Cama Casal Queen 400 fios Micropercal 03 Peças Ponto Palito' postada com SUCESSO.
+2025-06-29 22:11:22,905 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 22:26:22,905 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 22:26:27,818 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-29 22:26:27,823 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-29 22:26:31,914 - INFO - OFERTA NOVA ENCONTRADA: 'Legging Flanelada Grossa Calça Leg Peluciada Forrada Por Dentro Costura Reforçada Térmica'
+2025-06-29 22:26:32,572 - INFO - Imagem composta salva em: temp_images/composed_21397671106.png
+2025-06-29 22:26:36,523 - INFO - Oferta 'Legging Flanelada Grossa Calça Leg Peluciada Forrada Por Dentro Costura Reforçada Térmica' postada com SUCESSO.
+2025-06-29 22:26:36,523 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-29 22:41:36,523 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-29 22:41:41,336 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-29 22:41:41,336 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-29 22:41:45,432 - INFO - OFERTA NOVA ENCONTRADA: 'Cartão de Memória - MicroSD SanDisk 64GB e 128GB Classe 10 Ultra: Câmeras de Segurança'
+2025-06-29 22:41:47,046 - INFO - Imagem composta salva em: temp_images/composed_19498075078.png
+2025-06-29 22:41:51,065 - INFO - Oferta 'Cartão de Memória - MicroSD SanDisk 64GB e 128GB Classe 10 Ultra: Câmeras de Segurança' postada com SUCESSO.
+2025-06-29 22:41:51,065 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 17:11:39,880 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-30 17:11:39,881 - INFO - Carregadas 54 ofertas já postadas do histórico.
+2025-06-30 17:11:39,881 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 17:11:44,792 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 17:11:44,793 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 17:11:49,195 - INFO - OFERTA NOVA ENCONTRADA: 'Caixa De Som C/ Microfones Karaokê Brincadeiras em Família'
+2025-06-30 17:11:50,075 - INFO - Imagem composta salva em: temp_images/composed_22892981683.png
+2025-06-30 17:11:54,114 - INFO - Oferta 'Caixa De Som C/ Microfones Karaokê Brincadeiras em Família' postada com SUCESSO.
+2025-06-30 17:11:54,114 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 17:26:54,115 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 17:26:58,938 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 17:26:58,939 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 17:27:03,035 - INFO - OFERTA NOVA ENCONTRADA: 'Sapateira 4/5 andares Organizador de Sapatos Tênis 8/10 Pares Desmontável'
+2025-06-30 17:27:03,558 - INFO - Imagem composta salva em: temp_images/composed_21399094217.png
+2025-06-30 17:27:07,538 - INFO - Oferta 'Sapateira 4/5 andares Organizador de Sapatos Tênis 8/10 Pares Desmontável' postada com SUCESSO.
+2025-06-30 17:27:07,538 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 17:42:07,539 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 17:42:12,246 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 17:42:12,246 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 17:42:16,344 - INFO - OFERTA NOVA ENCONTRADA: 'Percarbonato de Sódio alvejante tira manchas clareador de roupas 1kg , limpeza geral'
+2025-06-30 17:42:17,164 - INFO - Imagem composta salva em: temp_images/composed_19298027004.png
+2025-06-30 17:42:21,153 - INFO - Oferta 'Percarbonato de Sódio alvejante tira manchas clareador de roupas 1kg , limpeza geral' postada com SUCESSO.
+2025-06-30 17:42:21,154 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 18:13:14,596 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-30 18:13:14,596 - INFO - Carregadas 57 ofertas já postadas do histórico.
+2025-06-30 18:13:14,596 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 18:13:19,308 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 18:13:19,308 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 18:13:23,406 - INFO - OFERTA NOVA ENCONTRADA: 'Kit com 3 Óleos de Tratamento Coco, Super Óleos e Multibenefícios'
+2025-06-30 18:13:24,097 - INFO - Imagem composta salva em: temp_images/composed_19397517167.png
+2025-06-30 18:13:28,319 - INFO - Oferta 'Kit com 3 Óleos de Tratamento Coco, Super Óleos e Multibenefícios' postada com SUCESSO.
+2025-06-30 18:13:28,320 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 18:28:29,040 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 18:28:33,856 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 18:28:33,856 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 18:28:37,899 - INFO - OFERTA NOVA ENCONTRADA: '2025 Nova Série 8 Relógio T800 Ultra Smart Watch Esportivo Sem Fio À Prova D'água T800 Ultra2 MAX'
+2025-06-30 18:28:38,697 - INFO - Imagem composta salva em: temp_images/composed_22097436494.png
+2025-06-30 18:28:46,452 - INFO - Oferta '2025 Nova Série 8 Relógio T800 Ultra Smart Watch Esportivo Sem Fio À Prova D'água T800 Ultra2 MAX' postada com SUCESSO.
+2025-06-30 18:28:46,452 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 18:43:46,452 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 18:43:51,019 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 18:43:51,019 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 18:43:55,151 - INFO - OFERTA NOVA ENCONTRADA: 'Berloque Amuletos De Prata 925 Trevo Tartaruga Marinha Cereja Acessórios Bracelete Contas Amantes Diamante Inlaid'
+2025-06-30 18:43:55,808 - INFO - Imagem composta salva em: temp_images/composed_27870969794.png
+2025-06-30 18:44:02,731 - INFO - Oferta 'Berloque Amuletos De Prata 925 Trevo Tartaruga Marinha Cereja Acessórios Bracelete Contas Amantes Diamante Inlaid' postada com SUCESSO.
+2025-06-30 18:44:02,731 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 18:46:12,787 - INFO - Bot de ofertas Shopee iniciado.
+2025-06-30 18:46:12,787 - INFO - Carregadas 60 ofertas já postadas do histórico.
+2025-06-30 18:46:12,787 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 18:46:17,485 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 18:46:17,485 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 18:46:21,581 - INFO - OFERTA NOVA ENCONTRADA: 'Tênis Feminino Esportivo Academia Corrida Confortável'
+2025-06-30 18:46:22,113 - INFO - Imagem composta salva em: temp_images/composed_19198955882.png
+2025-06-30 18:46:28,954 - INFO - Oferta 'Tênis Feminino Esportivo Academia Corrida Confortável' postada com SUCESSO.
+2025-06-30 18:46:28,954 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 19:01:28,954 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 19:01:34,291 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 19:01:34,291 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 19:01:38,373 - INFO - OFERTA NOVA ENCONTRADA: 'Jogos De Lençol Com Elástico Casal Queen 3 Peças Tecido Liso Luxo'
+2025-06-30 19:01:39,053 - INFO - Imagem composta salva em: temp_images/composed_20399258102.png
+2025-06-30 19:01:44,214 - INFO - Oferta 'Jogos De Lençol Com Elástico Casal Queen 3 Peças Tecido Liso Luxo' postada com SUCESSO.
+2025-06-30 19:01:44,215 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 19:16:44,215 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 19:16:49,331 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 19:16:49,331 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 19:16:53,431 - INFO - OFERTA NOVA ENCONTRADA: 'Jogo 6 Taça Diamante Copo Vidro Transparente Bico De Jaca 330ml'
+2025-06-30 19:16:54,095 - INFO - Imagem composta salva em: temp_images/composed_23097307468.png
+2025-06-30 19:16:58,855 - INFO - Oferta 'Jogo 6 Taça Diamante Copo Vidro Transparente Bico De Jaca 330ml' postada com SUCESSO.
+2025-06-30 19:16:58,863 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 19:31:58,863 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 19:32:03,664 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 19:32:03,665 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 19:32:07,763 - INFO - OFERTA NOVA ENCONTRADA: 'Lola Cosmetics Argan Oil Óleo Capilar 50ml'
+2025-06-30 19:32:08,189 - INFO - Imagem composta salva em: temp_images/composed_18760178533.png
+2025-06-30 19:32:13,699 - INFO - Oferta 'Lola Cosmetics Argan Oil Óleo Capilar 50ml' postada com SUCESSO.
+2025-06-30 19:32:13,699 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 19:47:13,699 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 19:47:18,620 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 19:47:18,621 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 19:47:22,725 - INFO - OFERTA NOVA ENCONTRADA: 'Camiseta feminina Segunda Pele Térmica Manga Longa com Proteção UV'
+2025-06-30 19:47:23,762 - INFO - Imagem composta salva em: temp_images/composed_19328485496.png
+2025-06-30 19:47:29,783 - INFO - Oferta 'Camiseta feminina Segunda Pele Térmica Manga Longa com Proteção UV' postada com SUCESSO.
+2025-06-30 19:47:29,783 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 20:02:29,784 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 20:02:34,900 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 20:02:34,900 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 20:02:39,000 - INFO - OFERTA NOVA ENCONTRADA: 'Kit 2 Prateleiras Suporte Com Alto Adesivos Para Parede Banheiro Cozinha Lavanderia Shampoo Sabonete'
+2025-06-30 20:02:39,692 - INFO - Imagem composta salva em: temp_images/composed_21697102620.png
+2025-06-30 20:02:47,394 - INFO - Oferta 'Kit 2 Prateleiras Suporte Com Alto Adesivos Para Parede Banheiro Cozinha Lavanderia Shampoo Sabonete' postada com SUCESSO.
+2025-06-30 20:02:47,394 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 20:17:47,395 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 20:17:52,319 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 20:17:52,319 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 20:17:56,412 - INFO - OFERTA NOVA ENCONTRADA: 'Jogo Lençol Casal kit 3 Peças Com Elastico Estampado'
+2025-06-30 20:17:58,696 - INFO - Imagem composta salva em: temp_images/composed_21099333118.png
+2025-06-30 20:18:03,472 - INFO - Oferta 'Jogo Lençol Casal kit 3 Peças Com Elastico Estampado' postada com SUCESSO.
+2025-06-30 20:18:03,472 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
+2025-06-30 20:33:03,472 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 1) ---
+2025-06-30 20:33:08,594 - INFO - Nenhuma oferta nova neste pacote. Indo para a próxima página.
+2025-06-30 20:33:08,594 - INFO - 
+--- Buscando um pacote de 50 ofertas (Página: 2) ---
+2025-06-30 20:33:12,791 - INFO - OFERTA NOVA ENCONTRADA: 'CALÇA FEMININA ALFAIATARIA ZARA CINTURA ALTA COM ZÍPER NA LATERAL ACOMPANHA CINTO'
+2025-06-30 20:33:13,308 - INFO - Imagem composta salva em: temp_images/composed_20099603380.png
+2025-06-30 20:33:20,989 - INFO - Oferta 'CALÇA FEMININA ALFAIATARIA ZARA CINTURA ALTA COM ZÍPER NA LATERAL ACOMPANHA CINTO' postada com SUCESSO.
+2025-06-30 20:33:20,990 - INFO - Postagem OK. Aguardando 15 minutos para buscar a próxima...
